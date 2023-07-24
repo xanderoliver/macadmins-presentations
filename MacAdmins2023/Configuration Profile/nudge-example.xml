@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>optionalFeatures</key>
+    <dict>
+      <key>acceptableCameraUsage</key>
+      <true/>
+      <key>acceptableScreenSharingUsage</key>
+      <true/>
+      <key>attemptToBlockApplicationLaunches</key>
+      <true/>
+      <key>blockedApplicationBundleIDs</key>
+      <array>
+        <string>com.google.Chrome</string>
+      </array>
+      <key>enforceMinorUpdates</key>
+      <true/>
+    </dict>
+    <key>osVersionRequirements</key>
+    <array>
+      <dict>
+        <key>aboutUpdateURL</key>
+        <string>https://support.apple.com/en-us/HT213444</string>
+        <key>requiredInstallationDate</key>
+        <string>2023-07-20T07:00:00Z</string>
+        <key>requiredMinimumOSVersion</key>
+        <string>13.4.1</string>
+      </dict>
+    </array>
+    <key>userExperience</key>
+    <dict>
+      <key>allowUserQuitDeferrals</key>
+      <true/>
+      <key>allowedDeferrals</key>
+      <integer>20</integer>
+      <key>approachingWindowTime</key>
+      <integer>48</integer>
+      <key>imminentWindowTime</key>
+      <integer>24</integer>
+      <key>randomDelay</key>
+      <true/>
+    </dict>
+    <key>userInterface</key>
+    <dict>
+      <key>iconDarkPath</key>
+      <string>/Library/Application Support/JAMF/example-logo.png</string>
+      <key>iconLightPath</key>
+      <string>/Library/Application Support/JAMF/example-logo.png</string>
+      <key>showDeferralCount</key>
+      <true/>
+      <key>updateElements</key>
+      <array>
+        <dict>
+          <key>_language</key>
+          <string>en</string>
+          <key>actionButtonText</key>
+          <string>Open System Update</string>
+          <key>mainContentText</key>
+          <string>A fully up-to-date Mac is required to ensure your device is protected.\n\nIf you do not update your Mac within the deadline, you may lose access to some items necessary for your day-to-day tasks.\n\nTo begin the update, simply click on the Open Software Update button. That will take you to your Mac's update window, where you can start the update process.\n\nThank you for helping to keep CORP safe.</string>
+          <key>subHeader</key>
+          <string>A friendly reminder from your CORP Tech team</string>
+        </dict>
+      </array>
+    </dict>
+  </dict>
+</plist>
